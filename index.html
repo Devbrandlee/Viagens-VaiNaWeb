@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semântica</title>
+</head>
+<body>
+    <!--Cabeçalho da página-->
+    <header>
+        <!--tap para menu de navegação-->
+        <nav>
+            <!--ul é um contain er de lista não ordenada-->
+            <ul>
+                <!-- tag a - Link-->
+                <li> <a href="www.tripadvisor.com.br" target="_blank">faça sua reserva</a></li>
+                <li> <a href="">Redes Sociais</a></li>
+                <li> <a href="">Saiba Mais</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Conteúdo principal do site-->
+    <main>
+        <section>
+            <h1>Viagens Vai Na Web</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FCjVZpmMa6g?si=_V2pOmoGZp33y9fr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <!--Seção de tipos de viagem-->
+        <section>
+        
+        
+        <!--A tag div deve ser usada com sabedoria, ela é usada para divisões, pois ela n tem valor semântico.-->
+
+        <div>
+            <h2>Viagem internacionais</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur illum nostrum eos harum atque. Quisquam quibusdam harum minus dolorem pariatur.</p>
+        </div>
+        <div>
+            <h2>Viagens nacionais</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat accusamus odio dolore voluptatem numquam pariatur cumque veniam eveniet veritatis odit. Facilis maiores labore ullam explicabo ad omnis aperiam dolorem saepe.</p>
+        </div>
+    </section>
+
+<!--Seção de form -->
+<section>
+    <h2>Se inscreva para receber novidades</h2>
+    <!--fieldset tag usada para agrupar um form agupando um estilo-->
+    <fieldset>
+<legend>formulário de cadastro</legend>
+
+<!--form é uma tag de formulário-->
+<form action=""> <!--Action lugar pra onde o código será enviado -->
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome"required>
+    <label for="e-mail">Email:</label>
+    <input type="email" id = "email">
+    <label for="cpf">cpf:</label>
+    <input type="number" id = "cpf">
+    <input type="submit">
+</form>
+
+    </fieldset>
+</section>
+    </main>
+    <!--footer parte final "Rodapé do site"-->
+    <footer></footer>
+</body>
+</html>
